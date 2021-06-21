@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.task {
+    background-color: burlywood;
+}
+@media only screen and (max-width: 991px) {
+    .task {
+        background-color: brown;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .task {
+        background-color: brown;
+    }
+}
+
+.health-header{
+    font-size: 8px;
+
+    &-content{
+        align-self: start;
+    }
+
+    h2{
+        
+    }
+
+}
