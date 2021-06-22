@@ -66,12 +66,13 @@ body {
 .btn-buy > button {
     background-color: #20bab1;
     color: #ffffff;
-    border-radius: 3px;
-    padding: 16.5px 101px 15.5px;;
+    border: none;
+    padding: 16.5px 101px 16.5px;;
     cursor: pointer;
 }
 .btn-buy > button:hover {
-    opacity: 0.7;
+    opacity: 0.8;
+    
 }
 .method-pay {
     color: #666666;
@@ -190,10 +191,51 @@ body {
 .deep-sleep {
     background-color: #20bab1;
     text-align: center;
+    color: #ffffff;
 }
 .deep-sleep-qa > h2 {
-    font-size: 64px;
+    font-size: 48px;
 }
 .deep-sleep-qa > p {
-    font-size: 64px;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.deep-sleep-qa {
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.deep-sleep-text > p {
+    opacity: 0.9;
+    font-size: 16px;
+    line-height: 1.67;
+}
+.pay-buy {
+    padding-top: 40px;
+}
+.pay-buy > button {
+    background-color: #ffffff;
+    color: #263a39;
+    border: none;
+}
+.pay-sleep {
+    padding-top: 40px;
+    position: relative;
+    left: 32.33%;
+    padding-bottom: 40px;
+}
+.pay-sleep > img {
+    position: relative;
+    left: 14%;
+}
+
+.benefit {
+    background-color: rgba(221, 235, 229, 0.24),rgba(221, 235, 229, 0.04);
+}
+.what-benefit-header {
+    font-size: 40px;
+    text-align: left;
 }
