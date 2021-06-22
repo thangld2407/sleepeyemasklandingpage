@@ -498,3 +498,16 @@ body {
     line-height: 1.56;
     color: #697776;
 }
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    color: #000;
+}
+.swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    color: #000;
+}
+div.swiper-pagination > span.swiper-pagination-bullet-active {
+    background: #000;
+}
+div.swiper-pagination {
+    margin-bottom: 40px;
+}
