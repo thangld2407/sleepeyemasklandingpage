@@ -187,7 +187,11 @@ body {
     font-size: 19px;
     line-height: 30px;
 }
-
+.main-sleep{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .deep-sleep {
     background-color: #20bab1;
     text-align: center;
@@ -215,6 +219,7 @@ body {
 }
 .pay-buy {
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 .pay-buy > button {
     background-color: #ffffff;
@@ -222,20 +227,22 @@ body {
     border: none;
 }
 .pay-sleep {
-    padding-top: 40px;
-    position: relative;
-    left: 32.33%;
     padding-bottom: 40px;
 }
-.pay-sleep > img {
-    position: relative;
-    left: 14%;
-}
-
 .benefit {
-    background-color: rgba(221, 235, 229, 0.24),rgba(221, 235, 229, 0.04);
+    background-color: #ddebe5;
+    color: #005b57;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 135px;
+    padding-right: 135px;
+    flex-grow: 0;
 }
 .what-benefit-header {
     font-size: 40px;
     text-align: left;
+    padding-top: 242px;
+    line-height: 1.4;
 }
+
