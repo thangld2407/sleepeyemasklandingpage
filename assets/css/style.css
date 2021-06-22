@@ -230,19 +230,63 @@ body {
     padding-bottom: 40px;
 }
 .benefit {
-    background-color: #ddebe5;
+    background-color: #f8fbfa;
     color: #005b57;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     padding-left: 135px;
     padding-right: 135px;
-    flex-grow: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+.what-benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .what-benefit-header {
     font-size: 40px;
     text-align: left;
     padding-top: 242px;
+    padding-bottom: 40px;
     line-height: 1.4;
 }
+.what-benefit-text {
+    font-size: 22px;
+    line-height: 1.64;
+    text-align: left;
+    padding-bottom: 80px;
+}
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-icon {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    align-content: space-between;
+    width: 41.1%;
+    text-align: center;
+    box-shadow: 0 24px 36px 0 rgb(0 91 87 / 7%);
+    margin: 10px 20px;
+}
 
+.icon-img > i {
+    font-size: 64px;
+    color:#21bab1;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    /* box-shadow: 0 24px 36px 0 rgb(0 91 87 / 7%); */
+    margin-top: -30px;
+}
+.header-icon {
+    padding: 27px 0 0 0;
+}
+.sub-icon-img {
+    padding: 24px 0 40px 0 ;
+}
