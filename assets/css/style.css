@@ -558,6 +558,9 @@ div.swiper-pagination {
     position: relative;
     bottom: 175px;
 }
+.btn-buy-mask-group > button:hover {
+    opacity: 0.9;
+} 
 .mask-method > p {
     font-size: 12px;
     color: #666666;
@@ -565,9 +568,11 @@ div.swiper-pagination {
     padding-right: 10px;
 }
 .banner {
+    display: flex;
     position: relative;
-    left: 529px;
+    /* left: 529px; */
     bottom: 118px;
+    justify-content: flex-end;
 }
 .banner > img {
     width: 47.1%;
@@ -595,4 +600,55 @@ div.swiper-pagination {
     font-size: 24px;
     line-height: 1.5;
     color: #666666;
+}
+
+.form-buy-action {
+    bottom: 80px;
+    position: relative;
+    margin-left: 590px;
+    margin-top: -153px;
+}
+/* reponsive */
+@media only screen and(max-width: 991px ) {
+
+}
+@media only screen and (max-width: 480px ) {
+    .bg-sleep-health {
+        /* height: 5.8%; */
+        background-size: cover;
+
+        object-fit: c;
+    }
+    .good-sleep {
+        padding-left: 1.25em;
+        padding-top: 3.125em;
+        float: none;
+        min-width: 100%;
+    }
+    .good-sleep-health {
+        font-size: 64px;
+    }
+    .good-sleep-text {
+        padding-right: 100px;
+    }
+    .btn-buy > button {
+        padding: 25px 93px 25px;
+    }
+
+    .mask-content {
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-bottom: 0;
+        color: #005b57;
+    }
+    .mask-content-text {
+        font-size: 22px;
+        line-height: 36px;
+        /* text-align: left; */
+    }
+    .mask-img {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 60px;
+    }
 }
