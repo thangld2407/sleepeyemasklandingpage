@@ -445,6 +445,10 @@ body {
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
 }
+.btn-buy-product > button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
 .pay-price {
     padding-bottom: 0;
 }
