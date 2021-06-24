@@ -115,6 +115,9 @@ body {
     padding-left: 20px;
     padding-top: 60px;
 }
+.mask-img > img {
+    width: 100%;
+}
 .deeply {
     background-color: #ddebe5;
 }
@@ -616,16 +619,14 @@ div.swiper-pagination {
 @media only screen and(max-width: 991px ) {
 
 }
-@media only screen and (max-width: 480px ) {
+@media only screen and (max-width: 414px ) {
     .bg-sleep-health {
         /* height: 5.8%; */
         background-size: cover;
-
-        object-fit: c;
+        background-position: center;
     }
     .good-sleep {
-        padding-left: 1.25em;
-        padding-top: 3.125em;
+        text-align: center;
         float: none;
         min-width: 100%;
     }
@@ -633,10 +634,19 @@ div.swiper-pagination {
         font-size: 64px;
     }
     .good-sleep-text {
-        padding-right: 100px;
+        /* padding-right: 100px; */
+        text-align: center;
+    }
+    .btn-buy {
+        text-align: center;
     }
     .btn-buy > button {
-        padding: 25px 93px 25px;
+        padding: 25px 40px 25px;
+    }
+    .method-pay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .mask-content {
@@ -650,9 +660,112 @@ div.swiper-pagination {
         line-height: 36px;
         /* text-align: left; */
     }
+    .bg-mask-main {
+        display: flex;
+        flex-direction: column;
+    }
     .mask-img {
         padding-right: 0;
         padding-left: 0;
         padding-top: 60px;
+    }
+
+    .any-where > .row > .col-4,.any-where > .row > .col-8  {
+        width: 100%;
+    }
+    .anyposition-img > img {
+        width: 100%;
+        margin: 0 0 ;
+    }
+    .anyposition {
+        padding: 50px 0;
+    }
+    .anyposition-content {
+        width: 100%;
+    }
+    .deeply > .row > .col-4,.deeply > .row > .col-8 {
+        width: 100%;
+    }
+    .increase {
+        padding: 50px 0;
+    }
+    .increase-content {
+        width: 100%;
+    }
+    .increase-img > img {
+        width: 100%;
+    }
+    .mask-reverse {
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+
+    .pay-sleep {
+        display: flex;
+        flex-direction: column;
+    }
+    .method-pay > img {
+        position: relative;
+        bottom: 0;
+        left: 0;
+    }
+
+    .benefit {
+        background-color: #f8fbfa;
+        color: #005b57;
+        padding: 0 0 ;
+    }
+    .benefit > .row > .col-4, .benefit > .row > .col-8  {
+        width: 100%;
+    }
+    .card-icon {
+        width: 100%;
+    }
+    .icon {
+        display: flex;
+        /* flex-direction: row-reverse; */
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* padding-left: 90px; */
+        /* padding-right: 0; */
+    }
+    .what-benefit-header {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 242px;
+        padding-bottom: 40px;
+        line-height: 1.4;
+        /* margin-bottom: 65px; */
+    }
+    .what-benefit-text {
+        text-align: center;
+    }
+    .icon {
+        padding-left: 0;
+    }
+
+    .product > .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-image {
+        padding: 0 0 ;
+    }
+    .product-image > img {
+        width: 100%;
+    }
+    .product > .row > .col-5,.product > .row > .col-7 {
+        width: 100%;
+    }
+    .product-intro {
+        padding-right: 0;
+    }
+    .btn-buy-product {
+        text-align: center;
+    }
+    .btn-buy-product > button {
+        /* margin: 0px -10px 1px 0; */
+        padding: 16px 10px 16px 10px;
     }
 }
