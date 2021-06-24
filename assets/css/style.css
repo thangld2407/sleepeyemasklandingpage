@@ -10,7 +10,6 @@ body {
     
 }
 .container {
-    border: 1px solid #bcb5b9;
     padding: 0 0px;
 }
 
@@ -34,6 +33,7 @@ body {
 .bg-sleep-health {
     background-image: url("../img/Rectangle\ 1_2021-06-21/a.png");
     background-size: cover;
+    padding-bottom: 155px;
 }
 .good-sleep {
     padding-top: 155.5px;
@@ -646,6 +646,16 @@ div.swiper-pagination {
     }
     .form-buy-action{
         align-items: center;
+    }
+
+
+    div.fix-size {
+        display: flex;
+        width: 100%;
+    }
+    .product-image {
+        display: flex;
+        justify-content: center;
     }
 }
 
