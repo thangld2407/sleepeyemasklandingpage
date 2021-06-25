@@ -611,13 +611,48 @@ div.swiper-pagination {
     align-items: center;
 }
 
-@media  (min-width: 992px) and (max-width: 1200px) {
+@media  (min-width: 992px) and (max-width: 1399px) {
     .good-sleep {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 40px 0;
+    }
+    div.fix-size {
+        width: 100%;
+    }
+    .product-image {
+        display: flex;
+        justify-content: center;
+        padding: 0 0;
+        flex-direction: row;
+
+    }
+    .product > .row > .col-5 {
+        width: 100%;
+    }
+    .product-intro {
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btn-buy-product > button {
+        padding: 16px 150px 16px 150px;
+        margin: 0 0;
+    }
+    .list-content > ul {
+        display: flex;
+
+    }
+    .list-content > ul > li {
+        margin: 12px 0 0 48px;
+    }
+    .product-color {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 @media only screen and (max-width: 991px ) {
@@ -646,16 +681,6 @@ div.swiper-pagination {
     }
     .form-buy-action{
         align-items: center;
-    }
-
-
-    div.fix-size {
-        display: flex;
-        width: 100%;
-    }
-    .product-image {
-        display: flex;
-        justify-content: center;
     }
 }
 
