@@ -74,6 +74,7 @@ body {
 .method-pay {
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 .method-pay > p{
     font-size: 12px;
@@ -228,6 +229,8 @@ body {
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 .benefit {
     background-color: #f8fbfa;
@@ -575,7 +578,7 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
 }
 .banner {
     position: absolute;
-    top: 60%;
+    top: 65%;
 }
 .question-footer {
     padding-bottom: 50px;
@@ -811,6 +814,12 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
 }
 
 @media only screen and (max-width: 480px ) {
+    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+        display: none;
+    }
+    .swiper-button-next:after, .swiper-button-prev:after {
+        display: none;
+    }
     .bg-sleep-health {
         /* height: 5.8%; */
         background-size: cover;
