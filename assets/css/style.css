@@ -519,6 +519,7 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
 
 .fix-padding{
     padding: 48px 0;
+    padding-left: 10px;
 }
 .mask-group {
     background-image: url("../img/Group\ 1196.png");
@@ -611,7 +612,7 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
     align-items: center;
 }
 
-@media  (min-width: 992px) and (max-width: 1399px) {
+@media  (min-width: 992px) and (max-width: 1200px) {
     .good-sleep {
         width: 100%;
         display: flex;
@@ -653,6 +654,21 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .col-md-5, .col-md-7 {
+        width: 100%;
+    }
+    .mask-group-header > h3 {
+        text-align: center;
+    }
+    .mask-group-para > p {
+        text-align: center;
+    }
+    .banner {
+        top: 83%;
+    }
+    .question-footer {
+        padding-top: 165px;
     }
 }
 @media only screen and (max-width: 991px ) {
@@ -832,6 +848,7 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
     }
     .good-sleep-health {
         font-size: 64px;
+        padding-top: 10px;
     }
     .good-sleep-text {
         /* padding-right: 100px; */
@@ -880,6 +897,9 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
     .anyposition {
         padding: 50px 0;
     }
+    .anyposition-img > img {
+        width: 90%;
+    }
     .anyposition-content {
         width: 100%;
     }
@@ -893,7 +913,7 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
         width: 100%;
     }
     .increase-img > img {
-        width: 100%;
+        width: 90%;
     }
     .mask-reverse {
         flex-direction: column-reverse;
@@ -920,7 +940,7 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
         transform: translateX(-10%);
     }
     .banner > img {
-        width: 99%;
+        width: 100%;
     }
     .card-icon {
         
@@ -964,6 +984,7 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
     }
     .product-intro {
         padding-right: 0;
+        padding-left: 20px;
     }
     .btn-buy-product {
         text-align: center;
@@ -972,6 +993,9 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
         /* margin: 0px -10px 1px 0; */
         padding: 16px 10px 16px 10px;
         margin: 0 0 ;
+    }
+    .mask-group-header > h3 {
+        font-size: 46px;
     }
     .product-price > span {
         margin: 8px 13px 8px 13px;
@@ -984,5 +1008,12 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
     }
     .color-pick > input {
         margin: 12px 0;
+    }
+    .testomonials-header {
+        font-size: 28px;
+
+    }
+    .testomonials-text {
+        font-size: 16px;
     }
 }
