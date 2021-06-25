@@ -6,6 +6,22 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
         el: ".swiper-pagination"
     },
+    slidesPerView: 2,
+    spaceBetween: 10,
+    breakpoints: {
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 30
+        },
+        1340: {
+            slidesPerView: 3,
+            spaceBetween: 5
+        },
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 5
+        }
+    },
     mousewheel: false,
 });
 
