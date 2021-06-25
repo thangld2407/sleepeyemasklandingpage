@@ -141,7 +141,7 @@
     color: #263a39;
     font-size: 20px;
     padding-left: 145px;
-    padding-top: 105px;
+    padding-top: 92px;
 
 }
 .increase-content-header{
@@ -178,7 +178,10 @@
 
 }
 .image-contest > img {
-    padding-top: 13px;
+    margin-top: 80px;
+}
+.image-context > img {
+    margin-top: 55px;
 }
 .anyposition-content-header{
     font-size: 40px;
@@ -196,7 +199,6 @@
 }
 .anyposition-img > img {
     margin-left: 75px;
-    margin-top: 67px;
 }
 .anyposition-content-text {
     font-size: 21px;
