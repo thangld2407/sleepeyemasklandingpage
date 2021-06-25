@@ -10,7 +10,7 @@ var x = setInterval(function(){
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-    document.getElementById("timeremaining").innerHTML = hours +"h " + minutes + "m " + seconds + "s ";
+    document.getElementById("timeremaining").innerHTML = 24 +" : " + 11 + " : "+ "08";
     if(distance < 0){
         clearInterval(x);
         document.getElementById("timeremaining").innerHTML = "EXPIRED";

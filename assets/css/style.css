@@ -5,7 +5,7 @@
 }
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-body {
+* {
     font-family: 'DM Sans', sans-serif;;
     
 }
@@ -17,13 +17,14 @@ body {
     text-align: center;
     background-color: #005b57;
     color: #ffffff;
-    padding: 14px 0;
+    padding: 19px 0;
 }
 
 .top-header > p > i {
     color: #f9f871;
     height: 16px;
     width: 16px;
+    letter-spacing: 0.6px;
     opacity: 0.5;
 }
 #timeremaining {
@@ -33,20 +34,21 @@ body {
 .bg-sleep-health {
     background-image: url("../img/Rectangle\ 1_2021-06-21/a.png");
     background-size: cover;
-    padding-bottom: 155px;
+    padding-bottom: 150px;
 }
 .good-sleep {
     padding-top: 155.5px;
-    width: 37.8888%;
-    float: right;
-    padding-right: 110px;
+    padding-left: 85px;
 }
 .good-sleep-health {
     color: #005b57;
     font-size: 72px;
-    letter-spacing: -0.72;
+    /* letter-spacing: -0.72; */
     font-style: italic;
     line-height: 1.22;
+}
+.good-sleep-health > h4 {
+    letter-spacing: -0.72;
 }
 .good-sleep-health-text {
     font-style: normal;
@@ -64,7 +66,7 @@ body {
     background-color: #20bab1;
     color: #ffffff;
     border: none;
-    padding: 16.5px 90px 16.5px;;
+    padding: 20.5px 96px 20.5px;
     cursor: pointer;
 }
 .btn-buy > button:hover {
@@ -74,7 +76,7 @@ body {
 .method-pay {
     display: flex;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 .method-pay > p{
     font-size: 12px;
@@ -85,11 +87,12 @@ body {
     letter-spacing: 2px;
     text-align: left;
     color: #263a39;
+    margin-right: 16px;
 }
 
 .mask-content {
-    padding-top: 236px;
-    padding-left: 135px;
+    padding-top: 242px;
+    padding-left: 75px;
     padding-bottom: 236px;
     color: #005b57;
 
@@ -99,16 +102,23 @@ body {
     font-size: 40px;
     font-weight: bold;
     padding-bottom: 40px;
+    line-height: 1.4;
+    max-width: 416px;
 }
 .mask-content-text {
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: normal;
     text-align: left;
+    color: #005b57;
 }
 .mask-img {
-    padding-right: 135px;
-    padding-left: 20px;
-    padding-top: 60px;
+    padding-right: 78px;
+    padding-left: 74px;
+    padding-top: 82px;
 }
 .mask-img > img {
     width: 100%;
@@ -126,19 +136,19 @@ body {
 }
 .increase {
     text-align: center;
-    padding-left: 205px;
 }
 .increase-content {
-    width: 76.4%;
-    height: 6.6%;   
     color: #263a39;
     font-size: 20px;
+    padding-left: 145px;
+    padding-top: 105px;
 
 }
 .increase-content-header{
-    font-size: 39px;
+    font-size: 40px;
     color: #005b57;
-    padding: 32px 0 40px 0;
+    padding: 28px 60px 38px 61px;
+    line-height: 1.4;
 }
 .increase-content-icon > img {
     width: 64px;
@@ -146,45 +156,54 @@ body {
     padding-top: 100px;
 }
 .increase-img > img {
-    width: 82.6%;
-    margin-right: 50px;
+    width: 100%;
+    max-width: 470px;
+    padding-top: 58px;
+    padding-left: 105px;
 }
 .increase-content-text {
-
+    text-align: center;
+    line-height: 1.6;
+    font-size: 21px;
+    max-width: 500px;
 }
 
 
 .anyposition {
     text-align: center;
-    padding-left: 205px;
-    padding-bottom: 180px;
 }
 .anyposition-content {
-    width: 76.4%;
-    height: 6.6%;   
     color: #263a39;
     font-size: 20px;
 
 }
+.image-contest > img {
+    padding-top: 13px;
+}
 .anyposition-content-header{
     font-size: 40px;
     color: #005b57;
-    padding: 32px 0 40px 0;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: -20px;
+    line-height: 1.4;
+    padding-right: 34px;
 }
 .anyposition-content-icon > img {
     width: 64px;
     height: 64px;
-    padding-top: 100px;
+    padding-top: 185px;
 }
 .anyposition-img > img {
-    width: 100%;
-    margin-left: 80px;
-    padding-top: 45px;
-    height: 8.6%;
+    margin-left: 75px;
+    margin-top: 67px;
 }
 .anyposition-content-text {
-    font-size: 19px;
-    line-height: 30px;
+    font-size: 21px;
+    line-height: 1.6;
+    max-width: 500px;
+    padding-left: 115px;
+    padding-top: 40px;
 }
 .main-sleep{
     display: flex;
