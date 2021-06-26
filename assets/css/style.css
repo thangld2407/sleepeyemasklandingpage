@@ -584,12 +584,27 @@ div > .anyposition-content-fix {
 
 .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
     color: #000;
+    display: none;
+}
+.mySwiper > .swiper-button-next {
+    background-image: url("/assets/img/arrows/chevron-right.svg");
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    background-position: center;
+}
+.mySwiper > .swiper-button-prev {
+    background-image: url("/assets/img/arrows/chevron-left.svg");
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    background-position: center;
 }
 .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
     color: #000;
+    display: none;
 }
 div.swiper-pagination > span.swiper-pagination-bullet-active {
     background: #000;
+    
 }
 
 
