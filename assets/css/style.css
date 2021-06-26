@@ -14,18 +14,6 @@
 }
 .swiper-container > .swiper-wrapper > .swiper-slide {
     width: 370px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
 }
 .top-header {
     text-align: center;
@@ -563,7 +551,6 @@ div > .anyposition-content-fix {
 }
 .testomonials-header > h3 {
     text-align: center;
-    margin: 0 420px 24px 343px;
     font-size: 40px;
     line-height: 1.4;
 }
@@ -573,6 +560,7 @@ div > .anyposition-content-fix {
     margin-bottom: 40px;
 }
 .testomonials-text p{
+    margin-top: 25px;
     max-width: 335px;
     font-size: 22px;
     line-height: 1.64;
@@ -595,11 +583,36 @@ div > .anyposition-content-fix {
     color: #666666;
 }
 .para-text {
-    margin: 16px 30px 51px;
     font-size: 18px;
     line-height: 1.56;
     text-align: center;
     color: #697776;
+}
+
+.mySwiper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.swiper-slide {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.swiper-slide .card-testomonials .testomonials-img img {
+    width: 300px;
+}
+
+.swiper-slide .card-testomonials {
+    width: 300px;
 }
 
 .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
@@ -611,12 +624,17 @@ div > .anyposition-content-fix {
     background-repeat: no-repeat;
     background-size: 50% auto;
     background-position: center;
+    top: 30%;
 }
 .mySwiper > .swiper-button-prev {
     background-image: url("/assets/img/arrows/chevron-left.svg");
     background-repeat: no-repeat;
     background-size: 70% auto;
     background-position: center;
+    top: 30%;
+}
+.mySwiper > .swiper-pagination {
+    margin-top: 100px;
 }
 .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
     color: #000;
@@ -629,8 +647,6 @@ div.swiper-pagination > span.swiper-pagination-bullet-active {
 div.swiper-container div.swiper-button-next {
     font-size: 10px;
 }
-
-
 
 .fix-padding{
     padding: 48px 0;
