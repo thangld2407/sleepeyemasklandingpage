@@ -6,14 +6,14 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
         el: ".swiper-pagination"
     },
-    slidesPerView: 3,
+    slidesPerView: 2,
     spaceBetween: 30,
     breakpoints: {
-        992: {
-            slidesPerView: 2,
+        1340: {
+            slidesPerView: 3,
             spaceBetween: 30
         },
-        1340: {
+        992: {
             slidesPerView: 3,
             spaceBetween: 30
         },
