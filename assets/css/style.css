@@ -769,6 +769,7 @@ div.swiper-container div.swiper-button-next {
     }
     div.fix-size {
         width: 100%;
+        padding: 0 0;
     }
     .product-image {
         display: flex;
@@ -841,10 +842,11 @@ div.swiper-container div.swiper-button-next {
         max-width: 100%;
     }
     .product-title > p {
-
+        text-align: center;
     }
     .col-5, .col-7 {
         width: 100%;
+        margin: 0 0;
     }
     .col-md-5, .col-md-7 {
         width: 100%;
@@ -863,6 +865,16 @@ div.swiper-container div.swiper-button-next {
     }
 }
 @media only screen and (max-width: 991px ) {
+    .row {
+        margin: 0 0;
+    }
+    .col-6 {
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .good-sleep > .zone-good-sleep {
+        margin-left: 0;
+    }
     .good-sleep {
         display: flex;
         padding: 0 0;
@@ -875,6 +887,7 @@ div.swiper-container div.swiper-button-next {
     .good-sleep-text {
         padding: 20px 0;
         text-align: center;
+        max-width: 100%;
     }
     .method-pay {
         display: flex;
@@ -893,9 +906,14 @@ div.swiper-container div.swiper-button-next {
     }
     .mask-content-header {
         text-align: center;
+        max-width: 100%;
     }
     .mask-content-text {
         text-align: center;
+    }
+    .anyposition-img > img {
+        width: 100%;
+        padding-top: 20px;
     }
     .mask-img {
         padding: 0 0 ;
@@ -912,16 +930,17 @@ div.swiper-container div.swiper-button-next {
     }
     .increase-content {
         width: 100%;
+        margin-left: 0;
     }
     .increase-img {
         text-align: center;
     }
     .increase-img > img {
-        width: 70%;
+        width: 100%;
         margin-right: 0;
     }
     .mask-reverse {
-        flex-direction: column-reverse;
+        flex-direction: row-reverse;
     }
     .card-icon {
         width: 81%;
@@ -965,7 +984,6 @@ div.swiper-container div.swiper-button-next {
     }
     .anyposition-img > img {
         margin: 0;
-        width: 70%;
     }
     .fix-size {
         width: 100%;
@@ -1017,6 +1035,69 @@ div.swiper-container div.swiper-button-next {
     }
     .banner > img {
         width: 99%;
+    }
+    .mask-content-header {
+        max-width: 100%;
+        text-align: center;
+    }
+    .row {
+        margin: 0 0;
+        padding: 0 0;
+    }
+    .col-6, .col-8 {
+        width: 100%;
+        padding: 0 0;
+        align-items: center;
+        display: flex;
+        flex-direction: column
+    }
+    .increase-content {
+        margin-left: 0;
+    }
+    .increase-content-text {
+        max-width: 100%;
+    }
+    .col-anyposition {
+        display: block;
+    }
+    .what-benefit-header > h4 {
+        padding-top: 0px;
+        padding-left: 0px;
+        max-width: 100%;
+        line-height: 1.4;
+        margin-bottom: 0px;
+    }
+    .what-benefit-text > p {
+        /* text-align: left; */
+        max-width: 100%;
+        padding-left: 0px;
+    }
+    .card-icon {
+        width: 80%;
+        text-align: center;
+        margin: 35px 0px;
+        align-items: center;
+    }
+    .col-5, .col-7 {
+        margin: 0 0;
+    }
+    .product-title {
+        max-width: 100%;
+    }
+    .list-content > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .col-12 {
+        padding: 0 0;
+    }
+    .increase-img > img {
+        padding-left: 0;
+        max-width: 100%;
+    }
+    .anyposition-content-text {
+        max-width: 100%;
     }
 }
 

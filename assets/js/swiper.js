@@ -6,7 +6,7 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
         el: ".swiper-pagination"
     },
-    slidesPerView: 'auto',
+    slidesPerView: 3,
     spaceBetween: 30,
     breakpoints: {
         1340: {
@@ -18,8 +18,8 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 10
         },
         320: {
-            slidesPerView: 1,
-            spaceBetween: 0
+            slidesPerView: 2,
+            spaceBetween: 10
         }
     },
     mousewheel: false,
