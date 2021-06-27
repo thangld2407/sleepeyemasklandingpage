@@ -6,21 +6,20 @@ var swiper = new Swiper(".mySwiper", {
     pagination: {
         el: ".swiper-pagination"
     },
-    variableWidth: 250,
     slidesPerView: 'auto',
-    spaceBetween: 10,
+    spaceBetween: 30,
     breakpoints: {
         1340: {
             slidesPerView: 3,
-            spaceBetween: 10
+            spaceBetween: 20
         },
         992: {
-            slidesPerView: 3,
+            slidesPerView: 2,
             spaceBetween: 10
         },
         320: {
             slidesPerView: 1,
-            spaceBetween: 10
+            spaceBetween: 0
         }
     },
     mousewheel: false,

@@ -268,12 +268,13 @@ div > .anyposition-content-fix {
 }
 .pay-buy {
     padding-top: 40px;
-    padding-bottom: 19px;
+    padding-bottom: 18px;
 }
 .pay-buy > button {
     background-color: #ffffff;
     color: #263a39;
     border: none;
+    padding: 20.5px 95px 20.5px;
 }
 .pay-sleep {
     display: flex;
@@ -285,8 +286,6 @@ div > .anyposition-content-fix {
 .benefit {
     background-color: #f8fbfa;
     color: #005b57;
-    padding-left: 70px;
-    padding-right: 60px;
     padding-top: 64px;
     padding-bottom: 34px;
 }
@@ -300,13 +299,13 @@ div > .anyposition-content-fix {
 .what-benefit-header > h4 {
     font-size: 40px;
     text-align: left;
-    padding-top: 175px;
-    padding-left: 60px;
+    padding-top: 170px;
+    padding-left: 70px;
     max-width: 270px;
     line-height: 1.4;
-
-    margin-bottom: 40px;
+    margin-bottom: 43px;
 }
+
 .what-benefit-text > p {
     font-size: 22px;
     line-height: 1.64;
@@ -545,12 +544,16 @@ div > .anyposition-content-fix {
     color: #263a39;
     margin: 12px 0 0 12px;
 }
+
 .testomonials {
     background-color: #f8fbfa;
     color: #005b57;
     text-align: center;
-    padding: 73px 0px;
+    /* padding: 73px 0px; */
+    padding-top: 70px;
+    padding-bottom: 173px;
 }
+
 .testomonials-header > h3 {
     text-align: center;
     font-size: 40px;
@@ -626,9 +629,9 @@ div > .anyposition-content-fix {
     background-position: center;
     top: 30%;
 }
-.mySwiper > .swiper-pagination {
+/* .mySwiper > .swiper-pagination {
     margin-top: 100px;
-}
+} */
 .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
     color: #000;
     display: none;
@@ -652,6 +655,7 @@ div.swiper-container div.swiper-button-next {
     position: relative;
 }
     .mask-group-header h3{
+        padding-left: 125px;
         font-size: 64px;
         font-weight: bold;
         font-stretch: normal;
@@ -670,6 +674,10 @@ div.swiper-container div.swiper-button-next {
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
+}
+.mask-group-para > p {
+    padding-left: 125px;
+    padding-top: 25px;
 }
 .mask-group-btn {
     display: flex;
@@ -707,10 +715,11 @@ div.swiper-container div.swiper-button-next {
 }
 .question-footer {
     padding-bottom: 50px;
-    padding-top: 135px;
+    padding-top: 150px;
 }
 .question-header {
-    font-size: 40px;
+    padding-top: 50px;
+    font-size: 35px;
     line-height: 1.4;
     font-weight: bold;
     text-align: center;
@@ -718,10 +727,17 @@ div.swiper-container div.swiper-button-next {
 }
 
 .list-question {
-    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 72px 92px 0 92px;
+}
+.question {
+    padding-bottom: 25px;
 }
 .question > p {
     font-size: 32px;
+    max-width: 770px;
     color: #000;
 }
 .answer > p {
@@ -737,6 +753,9 @@ div.swiper-container div.swiper-button-next {
 }
 
 @media  (min-width: 992px) and (max-width: 1200px) {
+    .row {
+        margin: 0 0;
+    }
     .good-sleep {
         width: 100%;
         display: flex;
@@ -755,8 +774,39 @@ div.swiper-container div.swiper-button-next {
         padding-top: 20px;
 
     }
+    .deeply > .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .anyposition-img > img {
+        margin: 0 0;
+    }
+
+    .increase-content {
+        margin-left: 0;
+    }
+    .increase-content-header {
+        text-align: center;
+        padding: 0 0;
+    }
+    .increase-img > img { padding-left: 0;}
     .list-content > ul > li {
         list-style-type: none;
+    }
+    .icon {
+        padding: 0 0 ;
+    }
+    .card-icon {
+        padding: 0 0 30px;
+    }
+    .what-benefit {
+        padding-bottom: 0;
+    }
+    .what-benefit-text > p {
+        padding-left: 0;
+        text-align: center;
     }
     .product > .row > .col-5 {
         width: 100%;
@@ -782,6 +832,15 @@ div.swiper-container div.swiper-button-next {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .product-title {
+        max-width: 100%;
+    }
+    .product-title > p {
+
+    }
+    .col-5, .col-7 {
+        width: 100%;
     }
     .col-md-5, .col-md-7 {
         width: 100%;
