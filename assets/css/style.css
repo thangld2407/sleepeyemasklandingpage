@@ -1273,7 +1273,15 @@ div.swiper-container div.swiper-button-next {
     .icon {
         padding-left: 0;
     }
-
+    .list-content > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .list-content > ul > li {
+        list-style-type: none;
+        margin: 0;
+    }
     .product > .row {
         display: flex;
         flex-direction: column;
