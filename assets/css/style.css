@@ -11,7 +11,6 @@
 .container {
     margin: auto;
     max-width: 1440px !important;
-    border: 1px solid red;
     padding: 0 0 ;
 }
 .swiper-container > .swiper-wrapper > .swiper-slide {
@@ -872,6 +871,15 @@ div.swiper-container div.swiper-button-next {
         padding: 0 0;
         margin: 0 0;
     }
+    .col-12 {
+        padding: 0;
+    }
+    .col-7, .col-5 {
+        margin: 0 0;
+    }
+    .product-title {
+        max-width: 100%;
+    }
     .good-sleep > .zone-good-sleep {
         margin-left: 0;
     }
@@ -912,7 +920,7 @@ div.swiper-container div.swiper-button-next {
         text-align: center;
     }
     .anyposition-img > img {
-        width: 100%;
+        padding-left: 0;
         padding-top: 20px;
     }
     .mask-img {
@@ -938,6 +946,7 @@ div.swiper-container div.swiper-button-next {
     .increase-img > img {
         width: 100%;
         margin-right: 0;
+        padding-left: 0;
     }
     .mask-reverse {
         flex-direction: row-reverse;
@@ -984,6 +993,7 @@ div.swiper-container div.swiper-button-next {
     }
     .anyposition-img > img {
         margin: 0;
+        width: 100%;
     }
     .fix-size {
         width: 100%;
@@ -1012,6 +1022,11 @@ div.swiper-container div.swiper-button-next {
     .mask-group-para{
         text-align: center;
     }
+    .list-content > ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     .banner {
         position: absolute;
         top: 80%;
@@ -1029,7 +1044,7 @@ div.swiper-container div.swiper-button-next {
 @media only screen and (max-width: 767px) {
     .banner {
         position: absolute;
-        top: 86%;
+        top: 100%;
         left: 24%;
         transform: translateX(-12%);
     }
@@ -1102,6 +1117,19 @@ div.swiper-container div.swiper-button-next {
 }
 
 @media only screen and (max-width: 480px ) {
+    .row {
+        margin: 0 0;
+    }
+    .col-6 {
+        padding: 0 0;
+        margin: 0 0;
+    }
+    .col-12 {
+        padding: 0;
+    }
+    .col-7, .col-5 {
+        margin: 0 0;
+    }
     .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
         display: none;
     }
@@ -1144,10 +1172,16 @@ div.swiper-container div.swiper-button-next {
         padding-bottom: 0;
         color: #005b57;
     }
+    .mask-group-header > h3 {
+        padding-left: 0;
+    }
     .mask-content-text {
         font-size: 22px;
         line-height: 36px;
         /* text-align: left; */
+    }
+    .mask-group-para > p {
+        padding-left: 0;
     }
     .bg-mask-main {
         display: flex;
@@ -1207,7 +1241,7 @@ div.swiper-container div.swiper-button-next {
     }
     .banner {
         position: absolute;
-        top: 89%;
+        top: 95%;
         left: 20%;
         transform: translateX(-10%);
     }
@@ -1284,6 +1318,9 @@ div.swiper-container div.swiper-button-next {
     .testomonials-header {
         font-size: 28px;
 
+    }
+    .mask-img > img {
+        width: 100%;
     }
     .testomonials-text {
         font-size: 16px;

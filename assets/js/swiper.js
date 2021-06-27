@@ -18,8 +18,8 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 10
         },
         320: {
-            slidesPerView: 2,
-            spaceBetween: 10
+            slidesPerView: 1,
+            spaceBetween: 0
         }
     },
     mousewheel: false,
