@@ -756,6 +756,10 @@ div.swiper-container div.swiper-button-next {
     .row {
         margin: 0 0;
     }
+    .col-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
     .good-sleep {
         width: 100%;
         display: flex;
