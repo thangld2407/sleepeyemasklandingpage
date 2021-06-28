@@ -22,6 +22,6 @@ var swiper = new Swiper(".mySwiper", {
             spaceBetween: 20
         }
     },
-    mousewheel: true,
+    mousewheel: false,
 });
 
