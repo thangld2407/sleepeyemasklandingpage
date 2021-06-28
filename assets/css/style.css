@@ -774,7 +774,7 @@ div.swiper-container div.swiper-button-next {
         display: none;
     }
 
-@media  (min-width: 992px) and (max-width: 1200px) {
+@media  (min-width: 992px) and (max-width: 1387px) {
     .what-benefit-header > h4 {
         padding-left: 0;
     }
