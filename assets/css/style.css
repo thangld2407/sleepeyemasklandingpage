@@ -1251,8 +1251,11 @@ div.swiper-container div.swiper-button-next {
     .product-image {
         flex-direction: column;
     }
+
 }
 @media only screen and (max-width: 480px ) {
+    .top-header > p {
+    }
     .row {
         margin: 0 0;
     }
@@ -1267,7 +1270,7 @@ div.swiper-container div.swiper-button-next {
         margin: 0 0;
     }
     .top-header > p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
         display: none;

@@ -9,7 +9,13 @@ var x = setInterval(function(){
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) + (days * 24);
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    seconds = seconds > 9 ? seconds : 'O' + seconds;
+    // seconds = seconds > 9 ? seconds : '0' + seconds; 
+    if(seconds < 10 ) {
+        seconds = '0' + seconds;
+    }
+    else {
+        seconds;
+    }
     
     document.getElementById("timeremaining").innerHTML = hours +" : " + minutes + " : "+ seconds;
     if(distance < 0){
