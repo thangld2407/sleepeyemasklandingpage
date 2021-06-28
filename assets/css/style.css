@@ -797,15 +797,19 @@ div.swiper-container div.swiper-button-next {
         padding-left: 0;
     }
     .good-sleep {
-        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 40px 0;
     }
+    .good-sleep > .zone-good-sleep {
+        margin-left: 0;
+    }
     div.fix-size {
-        width: 100%;
         padding: 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .product-image {
         display: flex;
@@ -862,12 +866,13 @@ div.swiper-container div.swiper-button-next {
         align-items: center;
     }
     .btn-buy-product > button {
-        padding: 16px 150px 16px 150px;
+        padding: 16px 50px 16px 50px;
         margin: 0 0;
     }
     .list-content > ul {
         display: flex;
         padding-bottom: 20px;
+        flex-direction: column;
     }
     .list-content > ul > li {
         margin: 12px 0 0 48px;
@@ -879,12 +884,18 @@ div.swiper-container div.swiper-button-next {
     }
     .product-title {
         max-width: 100%;
+        padding: 0 20px;
     }
     .product-title > p {
         text-align: center;
     }
+    .suitable-image {
+        padding-top: 20px;
+    }
+    .suitable-image > p {
+        padding: 0 0 ;
+    }
     .col-5, .col-7 {
-        width: 100%;
         margin: 0 0;
     }
     .col-md-5, .col-md-7 {
@@ -993,6 +1004,7 @@ div.swiper-container div.swiper-button-next {
     }
     .mask-content-text {
         text-align: center;
+        padding-bottom: 20px;
     }
     .anyposition-img > img {
         padding-left: 0;
@@ -1085,6 +1097,7 @@ div.swiper-container div.swiper-button-next {
     }
     .product-image {
         padding: 0 0;
+        flex-direction: row;
     }
     .btn-buy-product {
         text-align: center;
@@ -1119,6 +1132,15 @@ div.swiper-container div.swiper-button-next {
     }
     .form-buy-action{
         align-items: center;
+    }
+    .product-image {
+        padding-top: 20px;
+    }
+    .question-header {
+        padding-top: 90px;
+    }
+    .list-content > ul {
+        padding-bottom: 20px;
     }
 }
 
