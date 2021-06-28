@@ -1,4 +1,4 @@
-var timeRemaining = new Date("June 28, 2021 00:00:00").getTime()
+var timeRemaining = new Date("June 30, 2021 00:00:00").getTime()
 
 var x = setInterval(function(){
     var now = new Date().getTime();

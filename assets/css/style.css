@@ -6,15 +6,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 * {
-    font-family: 'DM Sans', sans-serif !important;
+    font-family: 'DM Sans', sans-serif;
 }
 .container {
     margin: auto;
     max-width: 1440px !important;
-    padding: 0 0 ;
+    padding: 0 0px ;
 }
 .swiper-container > .swiper-wrapper > .swiper-slide {
     width: 370px;
+}
+.header {
+    background-color: #005b57;
 }
 .top-header {
     text-align: center;
@@ -76,7 +79,7 @@
     text-align: left;
     color: #263a39;
     padding-bottom: 40px;
-    padding-top: 24px;
+    padding-top: 28px;
 }
 .btn-buy > button {
     background-color: #20bab1;
@@ -298,11 +301,11 @@ div > .anyposition-content-fix {
 .what-benefit-header > h4 {
     font-size: 40px;
     text-align: left;
-    padding-top: 170px;
-    padding-left: 70px;
+    padding-top: 180px;
+    padding-left: 78px;
     max-width: 270px;
     line-height: 1.4;
-    margin-bottom: 43px;
+    margin-bottom: 42px;
 }
 
 .what-benefit-text > p {
@@ -310,7 +313,7 @@ div > .anyposition-content-fix {
     line-height: 1.64;
     text-align: left;
     max-width: 300px;
-    padding-left: 90px;
+    padding-left: 105px;
     line-height: 1.64;
 }
 .icon {
@@ -318,8 +321,8 @@ div > .anyposition-content-fix {
     flex-direction: row;
     flex-wrap: wrap;
     padding-right: 0;
-    padding: 50px 0;
-    padding-left: 50px;
+    padding: 58px 0;
+    padding-left: 68px;
 }
 .icon > .row {
     margin-bottom: 76px;
@@ -340,7 +343,7 @@ div > .anyposition-content-fix {
 }
 
 .icon-img > i {
-    font-size: 64px;
+    font-size: 64px !important;
     color:#21bab1;
     border-radius: 50%;
     border: 1px solid #ffffff;
@@ -369,6 +372,7 @@ div > .anyposition-content-fix {
 }
 .suitable {
     padding-bottom: 80px;
+    margin-top: -8px;
 }
 .suitable-header {
     text-align: center;
@@ -383,7 +387,7 @@ div > .anyposition-content-fix {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 0 120px;
+    margin: 0 118px;
     background-color: #ffffff;
     object-fit: contain;
 }
@@ -417,11 +421,11 @@ div > .anyposition-content-fix {
 }
 .product-sleep-mask > p {
     color: #20bab1;
-    padding-top: 80px;
+    padding-top: 84px;
     font-size: 16px;
     text-align: left;
     letter-spacing: 2px;
-    margin: 0 13px 8px 0;
+    margin: -5px 13px 8px 0;
     font-weight: bold;
 }
 .product-title {
@@ -543,14 +547,17 @@ div > .anyposition-content-fix {
     color: #263a39;
     margin: 12px 0 0 12px;
 }
-
+.buy-config {
+    margin-left: 110px;
+    padding-top: 28px;
+}
 .testomonials {
     background-color: #f8fbfa;
     color: #005b57;
     text-align: center;
     /* padding: 73px 0px; */
     padding-top: 70px;
-    padding-bottom: 173px;
+    padding-bottom: 174px;
 }
 
 .testomonials-header > h3 {
@@ -564,7 +571,7 @@ div > .anyposition-content-fix {
     margin-bottom: 40px;
 }
 .testomonials-text p{
-    margin-top: 25px;
+    margin-top: 29px;
     max-width: 335px;
     font-size: 22px;
     line-height: 1.64;
@@ -653,7 +660,7 @@ div.swiper-container div.swiper-button-next {
     background-size: cover;
     position: relative;
 }
-    .mask-group-header h3{
+.mask-group-header > h3{
         padding-left: 125px;
         font-size: 64px;
         font-weight: bold;
@@ -663,7 +670,11 @@ div.swiper-container div.swiper-button-next {
         letter-spacing: normal;
         text-align: left;
         color: #ffffff;
-    }
+}
+.mask-group-header > p {
+    font-style: italic;
+    font-weight: 200;
+}
 .mask-group-para {
     font-size: 18px;
     font-weight: normal;
@@ -724,12 +735,15 @@ div.swiper-container div.swiper-button-next {
     text-align: center;
     color: #005b57;
 }
-
+.mask-group > .pay-buy > button {
+    padding-left: 125px;
+}
 .list-question {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 72px 92px 0 92px;
+    padding: 68px 92px 0 92px;
+    margin-bottom: -15px;
 }
 .question {
     padding-bottom: 25px;
@@ -758,6 +772,12 @@ div.swiper-container div.swiper-button-next {
     .col-12 {
         padding-left: 0;
         padding-right: 0;
+    }
+    .buy-config {
+        margin-left: 0;
+    }
+    .mask-group-header > h3 {
+        padding-left: 0;
     }
     .good-sleep {
         width: 100%;
@@ -814,6 +834,9 @@ div.swiper-container div.swiper-button-next {
     }
     .product > .row > .col-5 {
         width: 100%;
+    }
+    .pay-buy {
+        padding-left: 0;
     }
     .product-intro {
         padding-right: 0;
@@ -879,6 +902,12 @@ div.swiper-container div.swiper-button-next {
     }
     .product-title {
         max-width: 100%;
+    }
+    .buy-config {
+        margin-left: 0;
+    }
+    .mask-group-header > h3 {
+        padding-left: 0;
     }
     .good-sleep > .zone-good-sleep {
         margin-left: 0;
@@ -1141,42 +1170,51 @@ div.swiper-container div.swiper-button-next {
         background-size: cover;
         background-position: center;
     }
+    .buy-config {
+        margin-left: 0;
+    }
     .good-sleep {
         text-align: center;
         float: none;
         min-width: 100%;
     }
     .good-sleep-health {
-        font-size: 64px;
-        padding-top: 10px;
+        font-size: 40px;
+        padding-top: 20px;
     }
     .good-sleep-text {
         /* padding-right: 100px; */
         text-align: center;
+        font-size: 16px;
     }
     .btn-buy {
         text-align: center;
     }
     .btn-buy > button {
-        padding: 25px 40px 25px;
+        padding: 15px 40px 15px;
     }
     .method-pay {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
+    .pay-buy {
+        padding-left: 0;
+    }
     .mask-content {
         padding-top: 40px;
-        padding-left: 20px;
         padding-bottom: 0;
         color: #005b57;
     }
     .mask-group-header > h3 {
         padding-left: 0;
+        font-size: 22px;
+    }
+    .mask-content-header > p {
+        font-size: 34px;
     }
     .mask-content-text {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 36px;
         /* text-align: left; */
     }
@@ -1193,6 +1231,15 @@ div.swiper-container div.swiper-button-next {
         padding-top: 60px;
     }
 
+    .anyposition-content-icon > img {
+        padding-top: 40px;
+    }
+    .increase-content-icon > img {
+        padding: 0;
+    }
+    .increase-content {
+        padding-top: 40px;
+    }
     .any-where > .row > .col-4,.any-where > .row > .col-8  {
         width: 100%;
     }
@@ -1208,6 +1255,15 @@ div.swiper-container div.swiper-button-next {
     }
     .anyposition-content {
         width: 100%;
+    }
+    .text-change {
+        font-size: 34px;
+    }
+    .text-change > h4 {
+        font-size: 34px;
+    }
+    .text-change > p {
+        font-size: 18px;
     }
     .deeply > .row > .col-4,.deeply > .row > .col-8 {
         width: 100%;
@@ -1311,6 +1367,9 @@ div.swiper-container div.swiper-button-next {
     .mask-group-header > h3 {
         font-size: 46px;
     }
+    .product-intro {
+        padding-left: 0;
+    }
     .product-price > span {
         margin: 8px 13px 8px 13px;
         padding: 8px 0px;
@@ -1332,5 +1391,47 @@ div.swiper-container div.swiper-button-next {
     }
     .testomonials-text {
         font-size: 16px;
+    }
+    .suitable-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .deep-sleep-qa > h2 {
+        font-size: 34px;
+    }
+    .deep-sleep-qa > p {
+        font-size: 32px;
+    }
+    .deep-sleep-text > p {
+        font-size: 14px;
+        opacity: 1;
+    }
+    .what-benefit-header > h4 {
+        font-size: 32px;
+        text-align: center;
+    }
+    .what-benefit-header {
+        padding-top: 20px;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    .what-benefit-text > p {
+        text-align: center;
+        font-size: 18px;
+    }
+    .what-benefit {
+        margin-bottom:40px;
+    }
+    .btn-buy > button {
+        padding: 15px 30px 15px;
+    }
+    .suitable-header {
+        font-size: 32px;
+        margin: 46.9px 0 40px 0;
+    }   
+    .suitable-image > p {
+        font-size: 28px;
     }
 }
