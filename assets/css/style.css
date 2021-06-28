@@ -13,9 +13,6 @@
     max-width: 1440px !important;
     padding: 0 0px ;
 }
-.swiper-container > .swiper-wrapper > .swiper-slide {
-    width: 370px;
-}
 .header {
     background-color: #005b57;
 }
@@ -557,7 +554,6 @@ div > .anyposition-content-fix {
     text-align: center;
     /* padding: 73px 0px; */
     padding-top: 70px;
-    padding-bottom: 174px;
 }
 
 .testomonials-header > h3 {
@@ -624,14 +620,14 @@ div > .anyposition-content-fix {
 .mySwiper > .swiper-button-next {
     background-image: url("/assets/img/arrows/chevron-right.svg");
     background-repeat: no-repeat;
-    background-size: 50% auto;
+    background-size: 80% auto;
     background-position: center;
     top: 30%;
 }
 .mySwiper > .swiper-button-prev {
     background-image: url("/assets/img/arrows/chevron-left.svg");
     background-repeat: no-repeat;
-    background-size: 70% auto;
+    background-size: 80% auto;
     background-position: center;
     top: 30%;
 }
@@ -764,16 +760,18 @@ div.swiper-container div.swiper-button-next {
     flex-direction: column;
     align-items: center;
 }
-    .mySwiper > .swiper-button-prev {
-        display: none;
-    }
-    .mySwiper > .swiper-button-next {
-        display: none;
-    }
-    .swiper-pagination {
-        display: none;
-    }
-
+.mySwiper > .swiper-button-prev {
+    
+}
+.mySwiper > .swiper-button-next {
+    
+}
+.swiper-pagination {
+    
+}
+.swiper-wrapper {
+    margin-bottom: 80px;
+}
 @media  (min-width: 992px) and (max-width: 1387px) {
     .what-benefit-header > h4 {
         padding-left: 0;
@@ -1125,12 +1123,19 @@ div.swiper-container div.swiper-button-next {
 }
 
 @media only screen and (max-width: 767px) {
-    
+    .list-question {
+        padding: 42px 0px 0 0px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+    .answer > p {
+        margin: 0 10px;
+    }
     .banner {
         position: absolute;
         top: 100%;
-        left: 24%;
-        transform: translateX(-12%);
+        left: 21%;
+        transform: translateX(-13%);
     }
     .banner > img {
         width: 99%;
@@ -1155,6 +1160,7 @@ div.swiper-container div.swiper-button-next {
     }
     .increase-content-text {
         max-width: 100%;
+        margin: 0 10px;
     }
     .col-anyposition {
         display: block;
@@ -1197,9 +1203,25 @@ div.swiper-container div.swiper-button-next {
     }
     .anyposition-content-text {
         max-width: 100%;
+        margin: 0 10px;
+    }
+    .deep-sleep-qa > p, .deep-sleep-qa > h2 {
+        font-size: 42px;
+    }
+    .pay-buy > button {
+        padding: 18.5px 78px 18.5px;
+    }
+    .mask-group-header > h3 {
+        font-size: 42px;
+        padding-top: 20px;
+    }
+    .mask-group-para {
+        font-size: 18px;
     }
 }
-
+@media only screen and (max-width: 575px) {
+    
+}
 @media only screen and (max-width: 480px ) {
     .row {
         margin: 0 0;
@@ -1221,6 +1243,9 @@ div.swiper-container div.swiper-button-next {
         display: none;
     }
     .mySwiper > .swiper-button-next {
+        display: none;
+    }
+    .mySwiper > .swiper-button-prev {
         display: none;
     }
     .swiper-pagination {
