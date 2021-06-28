@@ -19,9 +19,9 @@ var swiper = new Swiper(".mySwiper", {
         },
         320: {
             slidesPerView: 1,
-            spaceBetween: 10
+            spaceBetween: 20
         }
     },
-    mousewheel: false,
+    mousewheel: true,
 });
 
