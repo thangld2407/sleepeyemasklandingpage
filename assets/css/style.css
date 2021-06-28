@@ -216,6 +216,7 @@ div > .anyposition-content-fix {
     text-align: center;
     padding-top: 35px;
     line-height: 1.4;
+    font-weight: bold;
 }
 .anyposition-content-icon > img {
     width: 64px;
@@ -647,8 +648,7 @@ div.swiper-container div.swiper-button-next {
 }
 
 .fix-padding{
-    padding: 48px 0;
-    padding-left: 10px;
+    padding: 150px 0px 48px 10px;
 }
 .mask-group {
     background-image: url("../img/Group\ 1196.png");
@@ -773,6 +773,9 @@ div.swiper-container div.swiper-button-next {
     margin-bottom: 80px;
 }
 @media  (min-width: 992px) and (max-width: 1387px) {
+    .suitable-image {
+        padding-top: 30px;
+    }
     .what-benefit-header > h4 {
         padding-left: 0;
     }
@@ -869,7 +872,7 @@ div.swiper-container div.swiper-button-next {
         align-items: center;
     }
     .btn-buy-product > button {
-        padding: 16px 50px 16px 50px;
+        padding: 16px 30px 16px 30px;
         margin: 0 0;
     }
     .list-content > ul {
@@ -893,7 +896,7 @@ div.swiper-container div.swiper-button-next {
         text-align: center;
     }
     .suitable-image {
-        padding-top: 20px;
+        padding-top: 30px;
     }
     .suitable-image > p {
         padding: 0 0 ;
@@ -911,7 +914,7 @@ div.swiper-container div.swiper-button-next {
         text-align: center;
     }
     .banner {
-        top: 83%;
+        top: 90%;
     }
     .question-footer {
         padding-top: 165px;
@@ -1245,7 +1248,9 @@ div.swiper-container div.swiper-button-next {
     }
 }
 @media only screen and (max-width: 575px) {
-    
+    .product-image {
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 480px ) {
     .row {
