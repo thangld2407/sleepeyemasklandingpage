@@ -802,6 +802,9 @@ div.swiper-container div.swiper-button-next {
         align-items: center;
         padding: 40px 0;
     }
+    .anyposition-img {
+        padding: 20px;
+    }
     .good-sleep > .zone-good-sleep {
         margin-left: 0;
     }
