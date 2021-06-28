@@ -1256,6 +1256,12 @@ div.swiper-container div.swiper-button-next {
 @media only screen and (max-width: 480px ) {
     .top-header > p {
     }
+    .color-pick >input:hover {
+        width: 50px;
+        height: 50px;
+        opacity: 0.8;
+        border-radius: 50%;
+    }
     .row {
         margin: 0 0;
     }
@@ -1268,6 +1274,9 @@ div.swiper-container div.swiper-button-next {
     }
     .col-7, .col-5 {
         margin: 0 0;
+    }
+    .top-header {
+        padding: 10px 0;
     }
     .top-header > p {
         font-size: 10px;
